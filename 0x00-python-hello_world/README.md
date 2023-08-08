@@ -1,23 +1,26 @@
 # Hello, World
-
-Project done during **Full Stack Software Engineering studies** at **Holberton School**. It aims to learn about what is entry point, basics commands (puts, printf, putchar), compilation process with gcc in **C language**.
+Project done during **Full Stack Software Engineering studies** at **ALX**. It aims to learn about variables, basics commands (print) and handle strings with **Python**.
 
 ## Technologies
-* Scripts written in Bash 4.3.11(1)
+* Shell Scripts are written in Bash 4.3.11(1)
+* Python Scripts are written with Python 3.4.3
 * C files are compiled using `gcc 4.8.4`
 * Tested on Ubuntu 14.04 LTS
 
 ## Files
-All of the following files are scripts and programs written in C:
-
 | Filename | Description |
 | -------- | ----------- |
-| `0-preprocessor` | Runs a C file through the preprocessor and saves the result into another file |
-| `1-compiler` | Compiles a C file but does not link |
-| `2-assembler` | Generates the assembly code of a C code and saves it in an output file |
-| `3-name` | Compiles a C file and creates an executable named `cisfun` |
-| `4-puts.c` | Prints exactly `"Programming is like building a multilingual puzzle"` |
-| `5-printf.c` | Prints exactly `with proper grammar, but the outcome is a piece of art` |
-| `6-size.c` | Prints the size of various types on the computer it is compiled |
-| `100-intel` | Generates the assembly code (Intel syntax) of a C code and save it in an output file |
-| `101-quote.c` | Prints exactly `and that piece of art is useful" - Dora Korpar, 2015-10-19` |
+| `0-run` | Shell script that runs a Python script, where its name is stored in an environment variable |
+| `1-run_inline` | Shell script that runs a Python script, where Python code is saved in an environment variable |
+| `2-print.py` | Python script that prints a message |
+| `3-print_number.py` | Prints a message with print function, using format |
+| `4-print_float.py` | Prints a float with print function, using format and precission |
+| `5-print_string.py` | Prints 3 times a string using print function with format |
+| `6-concat.py` | Concatenates strings and prints the result |
+| `7-edges.py` | Prints some letters of a string |
+| `8-concat_edges.py` | Prints some parts of a string |
+| `9-easter_egg.py` | Prints "The Zen of Python" |
+| `10-check_cycle.c` | C program that finds a loop in a linked list |
+| `100-write.py` | Python script that prints a message with `write` sys |
+| `101-compile` | Shell script that compiles a Python file |
+| `102-magic_calculation.py` | Python function that does exactly the same as a given disassembler |
