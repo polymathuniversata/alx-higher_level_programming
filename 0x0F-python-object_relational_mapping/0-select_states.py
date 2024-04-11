@@ -13,12 +13,12 @@ if __name__ == '__main__':
         database = sys.argv[3]
 
         # Connect to the MySQL server
-        db = MySQLdb.connect(host="localhost", port=3306, user=username, passwd=password, db=database)
+        db = MySQLdb.connect(host="localhost", user=username, passwd=password, db=database, port=3306)
 
         # Create a cursor object
         cur = db.cursor()
 
-        # Execute the query
+        # Execute the query to select all states ordered by id
         cur.execute("SELECT * FROM states ORDER BY id ASC")
 
         # Fetch all the results
